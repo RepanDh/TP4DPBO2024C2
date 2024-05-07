@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Membership</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">Member</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link IDXACTIVE" aria-current="page" href="index.php">Member</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link TRSACTIVE" href="orders.php">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link JMACTIVE" href="addresses.php">Addresses</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-4">
+    <div class="col-1 my-3">
+        <a type="button" class="btn btn-primary nav-link active" href="DATA_ADD_LINK.php?add">Add New</a>
+    </div>
+    <table class="table">
+    <thead>
+      DATA_HEAD
+    </thead>
+    <tbody>
+      DATA_TABEL
+    </tbody>
+  </table>
+      </div>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
